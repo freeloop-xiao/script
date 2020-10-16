@@ -24,11 +24,11 @@ public class CodeGenerator {
 
     private static final String OUTPUT_DIR = "/src/main/java";
 
-    private static final String DB_URL = "jdbc:mysql://ip:3306/databse?useUnicode=true&useSSL=false&characterEncoding=utf8&&serverTimezone=UTC";
+    private static final String DB_URL = "jdbc:mysql://106.55.6.202:3306/csmp_analysis?useUnicode=true&useSSL=false&characterEncoding=utf8&&serverTimezone=UTC";
 
     private static final String DB_USER_NAME = "root";
 
-    private static final String DB_PASSWORD = "xxxx";
+    private static final String DB_PASSWORD = "Tencent@123!";
 
     private static final String PARENT_PACKAGE = "com.loop.script";
 
