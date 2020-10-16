@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:mysql://ip:3306/database?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8
+    username: root
+    password: xxxxx
+    hikari:
+      maximum-pool-size: 10
+      auto-commit: true
+      connection-timeout: 30000
+      connection-test-query: SELECT 1
+logging:
+  level:
+    root: info
+  file:
+    path: logs/
